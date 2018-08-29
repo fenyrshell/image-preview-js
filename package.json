@@ -1,0 +1,32 @@
+{
+  "name": "image-preview-js",
+  "version": "1.0.1",
+  "description": "JavaScript module to preview images.",
+  "main": "assets/js/src/preview.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "prod": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenyr-sh/image-preview-js.git"
+  },
+  "keywords": [
+    "image",
+    "preview",
+    "js",
+    "javascript"
+  ],
+  "author": "Fenyr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fenyr-sh/image-preview-js/issues"
+  },
+  "homepage": "https://github.com/fenyr-sh/image-preview-js#readme",
+  "devDependencies": {
+    "ajv": "^6.5.3",
+    "webpack-mix": "^2.0.2"
+  }
+}
